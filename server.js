@@ -14,7 +14,7 @@ dotenv.config()
 
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: "https://startech-five.vercel.app",
         allowedHeaders: ["content-Type", "Authorization", "auth-token"],
         methods: ["GET", "POST", "PATCH", "DELETE"],
         credentials: true,
