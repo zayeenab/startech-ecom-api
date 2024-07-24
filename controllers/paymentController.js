@@ -23,7 +23,7 @@ exports.initiatePayment = async (req, res) => {
       tx_ref: orderId,
       amount,
       currency,
-      redirect_url: "https://startech-ecom-api-t2fv.onrender.com/thankyou",
+      redirect_url: "https://startech-five.vercel.app/thankyou",
       customer: {
         email: user.email,
         name: `${user.firstName} ${user.lastName}`,
